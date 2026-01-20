@@ -1,0 +1,28 @@
+body{
+  
+margin: 0;
+
+
+}
+
+
+
+
+.producten{
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+    overflow: auto;
+
+}
+
+
+.navigatie ul{
+    list-style: none;
+}
+
+
+
+
+
+
