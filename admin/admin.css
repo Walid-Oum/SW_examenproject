@@ -20,7 +20,7 @@ body {
 .logo img {
     height: 32px;
     display: block;
-    margin: auto;
+    margin: 1rem auto 1rem auto;
 
 }
 
@@ -193,3 +193,4 @@ footer {
     border-top: 2px solid var(--blue);
     text-align: center;
 }
+
