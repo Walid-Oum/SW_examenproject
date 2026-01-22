@@ -6,6 +6,8 @@
 
 }
 
+*{box-sizing: border-box;}
+
 
 
 
@@ -17,6 +19,8 @@ body {
 
 
 }
+
+
 
 .container {
     margin: 0 auto 0 auto;
@@ -68,4 +72,62 @@ body {
 .navigatie a:hover {
     text-decoration: underline;
 
+}
+
+.logo img{
+    height: 32px;
+    display: block;
+    margin: auto;
+
+}
+.productimg{
+    display: block;
+    width: 100%;
+    margin: 0 0 1rem 0;
+   
+}
+
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header p{
+    text-align: center;
+}
+
+.categorie{
+    margin: 2rem 0 2rem 0;
+}
+
+.categorie h2{
+    border-bottom: 2px solid var(--silver);
+    text-transform: uppercase;
+   
+}
+
+.productenrij{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product{
+    flex: 0 0 32%;
+    margin: 0 0 1rem 0;
+    border: 1px solid var(--silver);
+    padding: 1rem;
+    background: var(--white);
+
+
+}
+
+
+.product a{
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
 }
