@@ -229,8 +229,16 @@ header p{
     font-weight: bold;
 }
 
+
+h1, h2, h3 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 /* footer afscheiden van de rest */
 footer{
     border-top: 2px solid var(--silver);
     text-align: center;
 }
+
+
+

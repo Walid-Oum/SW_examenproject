@@ -4,7 +4,8 @@
     --green: #00a400;
     --red: #fa383e;
 }
-
+/* 
+padding en boirders tellen mee in height en width */
 * {
     box-sizing: border-box;
 }
@@ -24,18 +25,22 @@ body {
 
 }
 
+
+
 .container {
     max-width: 62rem;
     margin: 0 auto 0 auto;
     padding: 2rem 1rem 2rem 1rem;
 }
 
+/* balkkleur voor navigatie  */
 .navigatie {
     background: var(--blue);
 
 
 }
 
+/* horizontale menu-items */
 .navigatie ul {
     margin: 0;
     padding: 0;
@@ -44,6 +49,9 @@ body {
     flex-wrap: wrap;
 
 }
+
+
+/*menun items gelijk verdelen */
 
 .navigatie li {
     flex: 1;
@@ -87,6 +95,7 @@ header h1 {
 }
 
 table {
+    /*borders netjes */
     width: 100%;
     border-collapse: collapse;
     background: var(--white);
@@ -94,6 +103,7 @@ table {
 }
 
 caption {
+    /*titel van tabel */
     text-align: left;
     font-weight: bold;
     padding: 1rem;
@@ -111,6 +121,7 @@ thead th {
     color: var(--white);
 }
 
+/* afwisselende rijen om het leesbaarder te maken  */
 tbody tr:nth-child(even) {
     background: var(--white);
 }
@@ -138,6 +149,8 @@ td a:hover {
 .delete {
     color: var(--red);
 }
+
+
 
 form {
     max-width: 32rem;
