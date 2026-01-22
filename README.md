@@ -1,10 +1,14 @@
 Project: Webshop Videogames (HTML & CSS)
+
 Auteur: Walid Oumass
+
 School: Erasmushogeschool Brussel (EhB)
+
 Vak: Static Web
 
 
 1) Korte beschrijving
+
 Dit project is een eenvoudige webshop gemaakt met HTML en CSS.
 De website bestaat uit:
 - Publieke frontend: homepage met productoverzicht (Switch & Playstation) en detailpagina’s per product.
@@ -40,6 +44,7 @@ Afbeeldingen:
 
 
 3) Plan van aanpak & timing
+
 Maandag: afwezig (ziek)
 
 Dinsdag:
