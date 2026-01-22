@@ -9,26 +9,60 @@
 
 <body>
 
+    <header>
+        <nav class="navigatie">
+            <ul>
+                <li><a href="admin.html">inventaris</a></li>
+                <li><a href="../index.html">shop</a></li>
+            </ul>
+        </nav>
 
+        <h1>Edit product</h1>
+    </header>
 
+    <main class="container">
 
-    <!--description van product-->
+        <form action="#">
 
-    <textarea name="description" id="">description...</textarea>
+            <p>
+                <label for="naam">Productnaam</label><br>
+                <input type="text" id="naam" name="naam" placeholder="bv. Animal Crossing">
+            </p>
 
+            <p>
+                <label for="prijs">Prijs (€)</label><br>
+                <input type="number" id="prijs" name="prijs" placeholder="50">
+            </p>
 
-    <!--platform van spel-->
-    <select name="platform">
-        <optgroup label="Switch">
-            <option value="switch1">switch1</option>
-            <option value="switch2">switch2</option>
+            <p>
+                <label for="platform">Platform</label><br>
+                <select id="platform" name="platform">
+                    <option value="switch">Switch</option>
+                    <option value="playstation">Playstation</option>
+                </select>
+            </p>
 
-        </optgroup>
-        <optgroup label="Playstation">
-            <option value="playstation4">playstation 4</option>
-            <option value="playstation5">playstation 5</option>
-        </optgroup>
-    </select>
+            <p>
+                <label for="status">Status</label><br>
+                <select id="status" name="status">
+                    <option value="instock">In stock</option>
+                    <option value="out">Out of stock</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="beschrijving">Beschrijving</label><br>
+                <textarea id="beschrijving" name="beschrijving" rows="5" placeholder="Beschrijving..."></textarea>
+            </p>
+
+            <p>
+                <button type="submit">Opslaan</button>
+                <a href="admin.html">Terug</a>
+            </p>
+
+        </form>
+
+    </main>
 
 </body>
 

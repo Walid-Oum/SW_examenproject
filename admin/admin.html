@@ -10,8 +10,6 @@
 
 <body>
 
-
-
     <header>
         <nav class="navigatie">
             <ul>
@@ -21,95 +19,115 @@
         </nav>
 
         <h1>Admin Page</h1>
-
     </header>
 
+    <main class="container">
 
+        <form class="zoekbalk">
+            <label for="zoek">Zoeken:</label>
+            <input type="text" id="zoek" name="zoek" placeholder="Zoek op productnaam...">
+        </form>
 
+        <table>
+            <caption>Admin data</caption>
 
-    <!--basis opmaak van table voor admin info-->
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Productnaam</th>
+                    <th>Platform</th>
+                    <th>Status</th>
+                    <th>Prijs</th>
+                    <th>Acties</th>
+                </tr>
+            </thead>
 
-
-    <table>
-        <caption>Admin data</caption>
-
-        <thead>
-            <tr>
-                <th>id</th>
-                <th>productnaam</th>
-                <th>platform</th>
-                <th>status</th>
-                <th>prijs</th>
-                <th>acties</th>
-            </tr>
-        </thead>
-
-
-
-        <main>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>productnaam</td>
-                    <td>platform</td>
-                    <td>status</td>
-                    <td>prijs</td>
-                    <td><a href="edit.html">edit</a>
-                    <a href="#">delete</a></td>
+                    <td>Animal Crossing</td>
+                    <td>Switch</td>
+                    <td>In stock</td>
+                    <td>€50</td>
+                    <td>
+                        <a href="edit.html">edit</a>
+                        <a href="#" class="delete">delete</a>
+                    </td>
                 </tr>
+
                 <tr>
                     <td>2</td>
-                    <td>productnaam</td>
-                    <td>platform</td>
-                    <td>status</td>
-                    <td>prijs</td>
-                    <td><a href="edit.html">edit</a>
-                    <a href="#">delete</a></td>
+                    <td>Mario</td>
+                    <td>Switch</td>
+                    <td>In stock</td>
+                    <td>€50</td>
+                    <td>
+                        <a href="edit.html">edit</a>
+                        <a href="#" class="delete">delete</a>
+                    </td>
                 </tr>
+
                 <tr>
                     <td>3</td>
-                    <td>productnaam</td>
-                    <td>platform</td>
-                    <td>status</td>
-                    <td>prijs</td>
-                    <td><a href="edit.html">edit</a>
-                    <a href="#">delete</a></td>
+                    <td>Pokemon</td>
+                    <td>Switch</td>
+                    <td>In stock</td>
+                    <td>€50</td>
+                    <td>
+                        <a href="edit.html">edit</a>
+                        <a href="#" class="delete">delete</a>
+                    </td>
                 </tr>
+
+
                 <tr>
                     <td>4</td>
-                    <td>productnaam</td>
-                    <td>platform</td>
-                    <td>status</td>
-                    <td>prijs</td>
-                    <td><a href="edit.html">edit</a>
-                    <a href="#">delete</a></td>
+                    <td>FIFA</td>
+                    <td>Playstation</td>
+                    <td>In stock</td>
+                    <td>€50</td>
+                    <td>
+                        <a href="edit.html">edit</a>
+                        <a href="#" class="delete">delete</a>
+                    </td>
                 </tr>
+
+
+
                 <tr>
                     <td>5</td>
-                    <td>productnaam</td>
-                    <td>platform</td>
-                    <td>status</td>
-                    <td>prijs</td>
-                    <td><a href="edit.html">edit</a>
-                    <a href="#">delete</a></td>
+                    <td>Spiderman</td>
+                    <td>PLaystation</td>
+                    <td>In stock</td>
+                    <td>€50</td>
+                    <td>
+                        <a href="edit.html">edit</a>
+                        <a href="#" class="delete">delete</a>
+                    </td>
                 </tr>
+
+
                 <tr>
                     <td>6</td>
-                    <td>productnaam</td>
-                    <td>platform</td>
-                    <td>status</td>
-                    <td>prijs</td>
-                    <td><a href="edit.html">edit</a>
-                    <a href="#">delete</a></td>
+                    <td>God Of War</td>
+                    <td>Playstation</td>
+                    <td>In stock</td>
+                    <td>€50</td>
+                    <td>
+                        <a href="edit.html">edit</a>
+                        <a href="#" class="delete">delete</a>
+                    </td>
                 </tr>
+
+
+
+
             </tbody>
-            
-            
-            
-            
-                </table>
-        </main>
+        </table>
+
+    </main>
 
 </body>
+
 
 </html>
