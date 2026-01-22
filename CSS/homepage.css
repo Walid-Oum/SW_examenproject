@@ -11,7 +11,9 @@
 
 /*om de padding en border bij te tellen in hoogte en breedte*/
 
-*{box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 
 
@@ -85,52 +87,53 @@ om de inhoud te centeren
 
 /*logo dimensies + centreren */
 
-.logo img{
+.logo img {
     height: 32px;
     display: block;
     margin: auto;
 
 }
-.productimg{
+
+.productimg {
     display: block;
     width: 100%;
     margin: 0 0 1rem 0;
-   
+
 }
 
 
-header h1{
+header h1 {
     text-align: center;
     text-transform: uppercase;
 }
 
 /*stijl van slogan stukje onder titel*/
-header p{
+header p {
     text-align: center;
     font-style: italic;
     color: var(--gray);
 }
 
-.categorie{
+.categorie {
     margin: 2rem 0 2rem 0;
 }
 
 
 /*spacing rond elke categorie */
-.categorie h2{
+.categorie h2 {
     border-bottom: 2px solid var(--silver);
     text-transform: uppercase;
-   
+
 }
 
-.productenrij{
+.productenrij {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 /*3 productkaarten per rij stijlen */
-.product{
+.product {
     flex: 0 0 33.33%;
     margin: 0 0 1rem 0;
     border: 1px solid var(--silver);
@@ -141,7 +144,7 @@ header p{
 }
 
 
-.product a{
+.product a {
     display: block;
     padding: 0;
     text-align: center;
@@ -150,19 +153,19 @@ header p{
     color: var(--gray);
 }
 
-.productnaam{
+.productnaam {
     text-transform: capitalize;
 
 }
 
-.prijs{
+.prijs {
     color: var(--blue);
     font-weight: bold;
 
 }
 
 /*kaartachtige layout + inhoud gecentreerd */
-.detail{
+.detail {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -173,18 +176,19 @@ header p{
     border-radius: 6px;
     padding: 2rem 2rem 2rem 2rem;
     margin: 2rem 0 2rem 0;
-    
+
 
 }
-.detailafbeelding{
+
+.detailafbeelding {
     width: 100%;
     margin: 0;
- 
+
 
 
 }
 
-.detailimg{
+.detailimg {
     display: block;
     margin: 0 auto 0 auto;
     max-width: 500px;
@@ -195,7 +199,7 @@ header p{
 
 
 /* specificatielijst onder mekaar plaatsen en positioneren */
-.detailinfo ul{
+.detailinfo ul {
     max-width: 320px;
     margin: 0 auto 0 auto;
     padding: 0;
@@ -203,12 +207,12 @@ header p{
     text-align: left;
 }
 
-.detailinfo li{
+.detailinfo li {
     border-bottom: 1px solid var(--silver);
 }
 
 
-.teruglink{
+.teruglink {
     font-weight: bold;
     background-color: var(--blue);
     color: var(--white);
@@ -218,27 +222,47 @@ header p{
 
 }
 
-.teruglink:hover{
+.teruglink:hover {
     text-decoration: underline;
 }
 
 
-.extra a{
-    color:var(--gray);
+.extra a {
+    color: var(--gray);
     text-decoration: none;
     font-weight: bold;
 }
 
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
 }
 
 /* footer afscheiden van de rest */
-footer{
+footer {
     border-top: 2px solid var(--silver);
     text-align: center;
 }
 
 
+.nieuw {
+    background-color: var(--blue);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
 
+}
+
+.promo {
+
+    background-color: rgb(130, 5, 5);
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+
+
+}

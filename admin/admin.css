@@ -201,9 +201,18 @@ button:hover {
     text-decoration: underline;
 }
 
+h1, h2, h3 {
+    font-family:  'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
 
 footer {
     border-top: 2px solid var(--blue);
     text-align: center;
 }
+
+
+
+
 
