@@ -1,10 +1,15 @@
 :root {
+
+    /* kleurschema gedefinieerd van webflow */
     --silver: #e6e6e6;
     --gray: #424245;
     --white: #f5f5f7;
     --blue: #0066cc;
 
 }
+
+
+/*om de padding en border bij te tellen in hoogte en breedte*/
 
 *{box-sizing: border-box;}
 
@@ -21,10 +26,12 @@ body {
 }
 
 
-
+/*
+om de inhoud te centeren
+*/
 .container {
     margin: 0 auto 0 auto;
-    padding: 1.5rem 1rem 1.5rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
     max-width: 1000px;
 }
 
@@ -59,6 +66,7 @@ body {
 
 }
 
+/*verdeelt de menu elementen over de volledige breedte */
 .navigatie li {
     flex: 1;
     border-right: 1px solid var(--silver);
@@ -73,6 +81,9 @@ body {
     text-decoration: underline;
 
 }
+
+
+/*logo dimensies + centreren */
 
 .logo img{
     height: 32px;
@@ -93,6 +104,7 @@ header h1{
     text-transform: uppercase;
 }
 
+/*stijl van slogan stukje onder titel*/
 header p{
     text-align: center;
     font-style: italic;
@@ -103,6 +115,8 @@ header p{
     margin: 2rem 0 2rem 0;
 }
 
+
+/*spacing rond elke categorie */
 .categorie h2{
     border-bottom: 2px solid var(--silver);
     text-transform: uppercase;
@@ -115,8 +129,9 @@ header p{
     justify-content: space-between;
 }
 
+/*3 productkaarten per rij stijlen */
 .product{
-    flex: 0 0 32%;
+    flex: 0 0 33.33%;
     margin: 0 0 1rem 0;
     border: 1px solid var(--silver);
     padding: 1rem;
@@ -146,7 +161,7 @@ header p{
 
 }
 
-
+/*kaartachtige layout + inhoud gecentreerd */
 .detail{
     display: flex;
     flex-wrap: wrap;
@@ -179,7 +194,7 @@ header p{
 }
 
 
-
+/* specificatielijst onder mekaar plaatsen en positioneren */
 .detailinfo ul{
     max-width: 320px;
     margin: 0 auto 0 auto;
@@ -214,7 +229,7 @@ header p{
     font-weight: bold;
 }
 
-
+/* footer afscheiden van de rest */
 footer{
     border-top: 2px solid var(--silver);
     text-align: center;

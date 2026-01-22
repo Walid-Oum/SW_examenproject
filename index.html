@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar+One&display=swap"
+        rel="stylesheet">
     <title>Webshop Videogames</title>
 
 </head>
@@ -15,13 +20,16 @@
 
         <nav class="navigatie">
             <ul>
-                <li class="logo"><a href="index.html"><img src="afbeeldingen/logo/logo.jpg" alt="waloulou logo"></a></li>
+                <!-- logo linkt terug naar homepage-->
+                <li class="logo"><a href="index.html"><img src="afbeeldingen/logo/logo.jpg" alt="waloulou logo"></a>
+                </li>
+                <!--ankers gebruikt om te springen naar specifieke delen van pagina-->
                 <li> <a href="#contact">Contact</a></li>
                 <li><a href="#switch">Switch</a></li>
                 <li><a href="#playstation">Playstation</a></li>
             </ul>
         </nav>
-
+        <!--titel  en slogan van mijn webshop-->
         <h1>Waloulou</h1>
         <p>"Wanneer je een spel zoekt is waloulou de solulu"</p>
 
@@ -40,16 +48,19 @@
 
                 <div class="productenrij">
 
+
+                    <!--animal crossing gamecard-->
                     <article class="product">
                         <a class="productlink" href="producten/switch/animal_crossing.html">
                             <img class="productimg" src="afbeeldingen/ac.jpg" alt="animal crossing">
-                
+
                             <h3 class="productnaam">Animal Crossing</h3>
                             <p class="prijs">€50</p>
                         </a>
                     </article>
 
 
+                    <!--mario gamecard-->
                     <article class="product">
                         <a class="productlink" href="producten/switch/mario.html">
                             <img class="productimg" src="afbeeldingen/mario.jpg" alt="mario">
@@ -61,6 +72,7 @@
 
 
 
+                    <!--pokemon gamecard-->
                     <article class="product">
                         <a class="productlink" href="producten/switch/pokemon.html">
                             <img class="productimg" src="afbeeldingen/pokemon.jpg" alt="pokemon">
@@ -78,6 +90,8 @@
 
 
             <!--playstation games -->
+
+            <!--spiderman gamecard-->
             <section class="categorie" id="playstation">
                 <h2>Playstation</h2>
                 <div class="productenrij">
@@ -93,6 +107,7 @@
 
 
 
+                    <!--Fifa gamecard-->
                     <article class="product">
                         <a class="productlink" href="producten/playstation/fifa.html">
                             <img class="productimg" src="afbeeldingen/fifa.jpg" alt="fifa">
@@ -104,7 +119,7 @@
 
 
 
-
+                    <!--God of war gamecard-->
                     <article class="product">
                         <a class="productlink" href="producten/playstation/god_of_war.html">
                             <img class="productimg" src="afbeeldingen/gow.jpg" alt="God of war">
@@ -137,6 +152,8 @@
         </section>
     </main>
 
+
+    <!--contactgegevens -->
 
     <footer id="contact">
         <p>Contact: Waloulou@gameshop.be</p>
